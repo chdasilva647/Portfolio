@@ -1,0 +1,91 @@
+.londrina-sketch-regular {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.figtree {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: rgb(221, 218, 218);
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+#navbar{
+    /* background-color: rgb(221, 218, 218); */
+    background-color: rgb(210, 151, 151);
+    color: white;
+    padding: 10px;
+    height: 100%;
+    width: 16vw;
+    position: fixed;
+    left:0;
+    top:0;
+}
+
+#nav{ 
+    position: relative;
+    top:25%;
+    color: black;
+    font-size: 2vw;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#nav a{
+    text-decoration: none;
+    color: black;
+}
+
+#nav a:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.navItems{
+    position: relative;
+    /* left: 1.5vw; */
+    font-weight: 300;
+    font-size: 1.35vw;
+}
+
+
+
+h1{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 9vw;
+    position: absolute;
+    left: 35%; 
+    top: -5vw;
+}
+
+#CD{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12vw;
+    position: absolute;
+    z-index: 2;
+    left: 46%;
+    top: 25%;
+    letter-spacing: 15px;
+
+    animation-name: scaleup;
+    animation-duration: 4s;
+  }
+
+  @keyframes scaleup{
+    0% {scale: 70%;}
+    100% {scale: 160%;}
+  }
