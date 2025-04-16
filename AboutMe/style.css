@@ -1,0 +1,119 @@
+.londrina-sketch-regular {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.figtree {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: #faf7f7;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+#navbar{
+    background-color: rgb(19, 61, 138);
+    color: white;
+    padding: 10px;
+    height: 100%;
+    width: 16vw;
+    position: fixed;
+    left:0;
+    top:0;
+}
+
+#nav{ 
+    position: relative;
+    top:25%;
+    color: rgb(255, 255, 255);
+    font-size: 1.9vw;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+#nav a{
+    text-decoration: none;
+    color: #faf7f7;
+}
+
+#nav a:hover{
+    color: #ffc400;
+}
+
+.navItems{
+    position: relative;
+    font-weight: 300;
+    font-size: 1vw;
+    letter-spacing: 1px;
+}
+
+#headerImage{
+    width: 45%;
+    height: auto;
+    position: absolute;
+    left: 37%;
+    top: 3%;
+}
+
+#headerLine{
+    width: 69%;
+    height: 0.25vw;
+    background-color: rgb(19, 61, 138);
+    position: absolute;
+    top:17vw;
+    left: 24%;
+}
+
+h1{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12vw;
+    position: absolute;
+    left: 27%; 
+    top: -5vw;
+}
+
+#CD{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12vw;
+    z-index: 2;
+    letter-spacing: 10px;
+    position: absolute;
+    left: 46%;
+    top: 15%;
+    animation-name: scaleup;
+    animation-duration: 4s;
+  }
+
+  @keyframes scaleup{
+    0% {scale: 70%;}
+    100% {scale: 160%;}
+  }
+
+  #about{
+    color: rgb(19, 61, 138);
+    font-family: "Figtree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.7vw;
+    position: relative;
+    left: 53%;
+    top: 18.3vw;
+}
+
+#about a:hover{
+    color: #ffc400;
+}
