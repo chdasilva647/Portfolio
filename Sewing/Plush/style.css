@@ -1,0 +1,362 @@
+.londrina-sketch-regular {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.figtree {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body{
+    background-color: #faf7f7;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+#navbar{
+    background-color: rgb(19, 61, 138);
+    color: white;
+    padding: 10px;
+    height: 100%;
+    width: 16vw;
+    position: fixed;
+    left:0;
+    top:0;
+}
+
+#logo{
+    width: 15vw;
+    height: auto;
+    position: absolute;
+    left: 0%;
+    top: 1%;
+}
+#nav{ 
+    position: relative;
+    top:25%;
+    color: rgb(255, 255, 255);
+    font-size: 1.9vw;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+#nav a{
+    text-decoration: none;
+    color: #faf7f7;
+}
+
+#nav a:hover{
+    color: #ffc400;
+}
+
+.navItems{
+    position: relative;
+    font-weight: 300;
+    font-size: 1vw;
+    letter-spacing: 1px;
+}
+
+
+h1{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 9vw;
+    position: absolute;
+    left: 35%; 
+    top: -5vw;
+}
+
+#headerImage{
+    width: 40%;
+    height: auto;
+    position: absolute;
+    left: 37%;
+    top: 1%;
+}
+
+#headerLine{
+    width: 69%;
+    height: 0.25vw;
+    background-color: rgb(19, 61, 138);
+    position: absolute;
+    top:17vw;
+    left: 24%;
+}
+
+#sub{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 18vw;
+    left: 48vw;
+    font-size: 5vw;
+    cursor: pointer;
+}
+
+#toyName{
+    position: absolute;
+    left: 40vw;
+    top: 20vw;
+    background-color: rgb(19, 61, 138);
+    width: 13vw;
+    height: 5vw;
+    border-radius: 20vw;
+    font-size: 1.8vw;
+    color:#faf7f7;
+    font-family: "Figtree", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    align-content: center;
+    letter-spacing: 1px;
+}
+
+#bagName{
+    position: absolute;
+    left: 60vw;
+    top: 20vw;
+    background-color: #133d8a;
+    width: 14vw;
+    height: 5vw;
+    border-radius: 20vw;
+    font-size: 1.8vw;
+    color:#faf7f7;
+    font-family: "Figtree", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    align-content: center;
+    letter-spacing: 1px;
+}
+
+#back{
+    position: absolute;
+    left: 34vw;
+    top: 27.2vw;
+    background-color: rgb(19, 61, 138);
+    width: 4vw;
+    height: 3vw;
+    border-radius: 20vw;
+    font-size: 2vw;
+    color:#faf7f7;
+    font-family: "Figtree", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    align-content: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#bear{
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    left: 37%;
+    top: 25vw;
+}
+
+#bear2{
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    left: 62%;
+    top: 27vw;
+    padding-bottom: 3vw;
+}
+#bearTitle{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    position: absolute;
+    left: 39%;
+    top: 27vw;
+    font-size: 2.8vw;
+}
+
+#bearList{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1.5vw;
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    left: 37%;
+    top: 30vw;
+}
+
+#bearList a{
+  text-decoration: none;
+  color: black;
+}
+#bearList a:hover{
+    text-decoration: underline;
+    color: #ffc400;
+  }
+
+  
+#dog{
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    left: 62%;
+    top: 25vw;
+}
+
+#dog2{
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    left: 62%;
+    top: 27vw;
+    padding-bottom: 3vw;
+}
+
+#dogTitle{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    position: absolute;
+    left: 39%;
+    top: 27vw;
+    font-size: 2.8vw;
+}
+
+#dogList{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1.5vw;
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    left: 37%;
+    top: 30vw;
+}
+
+#dogList a{
+  text-decoration: none;
+  color: black;
+}
+#dogList a:hover{
+    text-decoration: underline;
+    color: #ffc400;
+}
+
+
+#mouse{
+    width: 45vw;
+    height: auto;
+    position: absolute;
+    left: 37%;
+    top: 55vw;
+}
+
+#mouse2{
+    width: 45vw;
+    height: auto;
+    position: absolute;
+    left: 37%;
+    top: 31vw;
+ 
+}
+
+#mouseTitle{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    position: absolute;
+    left: 39%;
+    top: 27vw;
+    font-size: 2.8vw;
+}
+
+#mouseList{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1.5vw;
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    left: 37%;
+    top: 58vw;
+    padding-bottom: 3vw;
+}
+
+#mouseList a{
+  text-decoration: none;
+  color: black;
+}
+#mouseList a:hover{
+    text-decoration: underline;
+    color: #ffc400;
+}
+
+#tooth{
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    left: 37%;
+    top: 86vw;
+}
+
+#twooth{
+    width: 17vw;
+    height: 27vw;
+    position: absolute;
+    left: 65%;
+    top: 86vw;
+    padding-bottom: 3vw;
+}
+
+
+#tooth2{
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    left: 62%;
+    top: 27vw;
+    padding-bottom: 3vw;
+}
+
+#toothTitle{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    position: absolute;
+    left: 39%;
+    top: 27vw;
+    font-size: 2.8vw;
+}
+
+#toothList{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1.5vw;
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    left: 37%;
+    top: 30vw;
+}
+
+#toothList a{
+  text-decoration: none;
+  color: black;
+}
+#toothList a:hover{
+    text-decoration: underline;
+    color: #ffc400;
+}
