@@ -1,0 +1,219 @@
+.londrina-sketch-regular {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.figtree {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: #faf7f7;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#navbar{
+    background-color: rgb(19, 61, 138);
+    color: white;
+    padding: 10px;
+    height: 100%;
+    width: 16vw;
+    position: fixed;
+    left:0;
+    top:0;
+}
+#logo{
+    width: 15vw;
+    height: auto;
+    position: absolute;
+    left: 0%;
+    top: 1%;
+}
+
+#nav{ 
+    position: relative;
+    top:25%;
+    color: rgb(255, 255, 255);
+    font-size: 1.9vw;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+#nav a{
+    text-decoration: none;
+    color: #faf7f7;
+}
+
+#nav a:hover{
+    color: #ffc400;
+}
+
+.navItems{
+    position: relative;
+    font-weight: 300;
+    font-size: 1vw;
+    letter-spacing: 1px;
+}
+
+h1{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 9vw;
+    position: absolute;
+    left: 35%; 
+    top: -5vw;
+}
+
+#headerImage{
+    width: 55%;
+    height: auto;
+    position: absolute;
+    left: 30%;
+    top: -2%;
+}
+#headerImage:hover{
+    cursor: pointer;
+}
+
+#headerLine{
+    width: 69%;
+    height: 0.25vw;
+    background-color: rgb(19, 61, 138);
+    position: absolute;
+    top:15vw;
+    left: 24%;
+}
+
+#sub{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 21vw;
+    left: 48.5vw;
+    font-size: 5vw;
+}
+
+#sketches{
+    position: absolute;
+    top: 20vw;
+    left: 27%;
+}
+
+.sketches{
+    width: 20vw;
+    height: auto;
+}
+
+#S1{
+    position: absolute;
+    left: 0vw;
+    top: 0%;
+}
+
+#S8{
+    position: absolute;
+    left: 20.28vw;
+    top: 7vw;
+}
+
+#S3{
+    position: absolute;
+    left: 40.6vw;
+    top: 0%;
+}
+
+#S4{
+    position: absolute;
+    left: 0vw;
+    top: 28vw;
+}
+
+#S9{
+    position: absolute;
+    left: 20.28vw;
+    top: 27.5vw;
+} 
+
+#S6{
+    position: absolute;
+    left: 40.6vw;
+    top: 26.7vw;
+}
+
+#S2{
+    position: absolute;
+    left: 0vw;
+    top: 55.8vw;
+}
+
+#S7{
+    position: absolute;
+    top: 51vw;
+    left: 20.28vw;
+}
+
+#S5{
+    position: absolute;
+    top: 54vw;
+    left: 40.6vw;
+}
+
+#S10{
+    position: absolute;
+    top: 76.1vw;
+    left: 0vw;
+}
+
+#S11{
+    position: absolute;
+    top: 74.8vw;
+    left: 20.28vw;
+}
+#S12{
+    position: absolute;
+    top: 76.2vw;
+    left: 40.6vw;
+}
+
+#S13{
+    position: absolute;
+    top: 101.8vw;
+    left: 0vw;
+    padding-bottom: 3vw;
+}
+
+#S14{
+    position: absolute;
+    top: 86.7vw;
+    left: 20.28vw;
+}
+#S15{
+    position: absolute;
+    top: 99vw;
+    left: 40.6vw;
+}
+
+.sketches:hover {
+    cursor: zoom-in; 
+} 
+
+.large{
+    -webkit-transform:scale(1.7); 
+    transform:scale(1.7);
+    z-index: +2;
+}
