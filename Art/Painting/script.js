@@ -40,6 +40,19 @@ $("#back").click(function () {
    
 });
 
+$("#back").hover(function () {
+    $("#back").css("color", "#133d8a");
+    $("#back").css("background-color", "#ffc400");
+    $("#back").css("transform", "scale(1.15)");
+    $("#back").css("cursor", "pointer");
+},
+    function () {
+        $("#back").css("color", "##faf7f7");
+        $("#back").css("background-color", "#133d8a");
+        $("#back").css("transform", "scale(1)");
+        $("#back").css("cursor", "default");
+    })
+
 $("#s1").click(function(){
     $("#p1").show();
     $("#back").show();
