@@ -148,7 +148,8 @@ h1{
     height: auto;
     position: absolute;
     left: 37%;
-    top: 55vw;
+    /* top: 55vw; */
+    top: 40vw;
     padding-bottom: 3vw;
 } 
 
@@ -205,7 +206,8 @@ h1{
     height: auto;
     position: absolute;
     left: 37%;
-    top: 55vw;
+    /* top: 55vw; */
+    top: 40vw;
     padding-bottom: 3vw;
 } 
 
