@@ -54,10 +54,9 @@ $("#rose").click(function () {
     $("#body").hide();
     $("#bodyP").hide();
 });
-
 $("#rose").hover(function () {
     $("#rose").css("opacity", "0.90");
-    // $("#rose").css("transition", "opacity 0.5s");
+    $("#rose").css("transition", "opacity 0.5s");
     $("#rose").css("cursor", "pointer");
 },
     function () {
@@ -79,6 +78,7 @@ $("#plaid").click(function () {
 
 $("#plaid").hover(function () {
     $("#plaid").css("opacity", "0.90");
+    $("#plaid").css("transition", "opacity 0.5s");
     $("#plaid").css("cursor", "pointer");
 },
     function () {
@@ -101,6 +101,7 @@ $("#cross").click(function () {
 
 $("#cross").hover(function () {
     $("#cross").css("opacity", "0.90");
+    $("#cross").css("transition", "opacity 0.5s");
     $("#cross").css("cursor", "pointer");
 },
 function () {
@@ -122,6 +123,7 @@ $("#body").click(function () {
 
 $("#body").hover(function () {
     $("#body").css("opacity", "0.90");
+    $("#body").css("transition", "opacity 0.5s");
     $("#body").css("cursor", "pointer");
 },
     function () {
