@@ -13,6 +13,7 @@ $("#sub").click(function () {
     $("#dog").show();
     $("#mouse").show();
     $("#tooth").show();
+    $("#back").hide();
    
 });
 
@@ -29,6 +30,19 @@ $("#back").click(function () {
     $("#twooth").show();
    
 });
+
+$("#back").hover(function () {
+    $("#back").css("color", "#133d8a");
+    $("#back").css("background-color", "#ffc400");
+    $("#back").css("transform", "scale(1.15)");
+    $("#back").css("cursor", "pointer");
+},
+    function () {
+        $("#back").css("color", "##faf7f7");
+        $("#back").css("background-color", "#133d8a");
+        $("#back").css("transform", "scale(1)");
+        $("#back").css("cursor", "default");
+    })
 
 $("#bear").click(function(){
     $("#bearP").show();
