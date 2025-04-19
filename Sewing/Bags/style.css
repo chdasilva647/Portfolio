@@ -105,41 +105,6 @@ h1{
     top: 18vw;
     left: 53vw;
     font-size: 5vw;
-    cursor: pointer;
-}
-
-#toyName{
-    position: absolute;
-    left: 40vw;
-    top: 20vw;
-    background-color: rgb(19, 61, 138);
-    width: 13vw;
-    height: 5vw;
-    border-radius: 20vw;
-    font-size: 1.8vw;
-    color:#faf7f7;
-    font-family: "Figtree", sans-serif;
-    font-weight: 900;
-    text-align: center;
-    align-content: center;
-    letter-spacing: 1px;
-}
-
-#bagName{
-    position: absolute;
-    left: 60vw;
-    top: 20vw;
-    background-color: #133d8a;
-    width: 14vw;
-    height: 5vw;
-    border-radius: 20vw;
-    font-size: 1.8vw;
-    color:#faf7f7;
-    font-family: "Figtree", sans-serif;
-    font-weight: 900;
-    text-align: center;
-    align-content: center;
-    letter-spacing: 1px;
 }
 
 #back{
@@ -161,7 +126,7 @@ h1{
     cursor: pointer;
 }
 
-#bear{
+#rose{
     width: 20vw;
     height: auto;
     position: absolute;
@@ -169,7 +134,7 @@ h1{
     top: 25vw;
 }
 
-#bear2{
+#rose2{
     width: 20vw;
     height: auto;
     position: absolute;
@@ -177,7 +142,17 @@ h1{
     top: 27vw;
     padding-bottom: 3vw;
 }
-#bearTitle{
+
+#rose3{
+    width: 45vw;
+    height: auto;
+    position: absolute;
+    left: 37%;
+    top: 55vw;
+    padding-bottom: 3vw;
+} 
+
+#roseTitle{
     font-family: "Londrina Sketch", sans-serif;
     font-weight: 400;
     position: absolute;
@@ -186,7 +161,7 @@ h1{
     font-size: 2.8vw;
 }
 
-#bearList{
+#roseList{
     font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -198,17 +173,17 @@ h1{
     top: 30vw;
 }
 
-#bearList a{
+#roseList a{
   text-decoration: none;
   color: black;
 }
-#bearList a:hover{
+#roseList a:hover{
     text-decoration: underline;
     color: #ffc400;
   }
 
   
-#dog{
+#plaid{
     width: 20vw;
     height: auto;
     position: absolute;
@@ -216,7 +191,7 @@ h1{
     top: 25vw;
 }
 
-#dog2{
+#plaid2{
     width: 20vw;
     height: auto;
     position: absolute;
@@ -225,7 +200,17 @@ h1{
     padding-bottom: 3vw;
 }
 
-#dogTitle{
+#plaid3{
+    width: 45vw;
+    height: auto;
+    position: absolute;
+    left: 37%;
+    top: 55vw;
+    padding-bottom: 3vw;
+} 
+
+
+#plaidTitle{
     font-family: "Londrina Sketch", sans-serif;
     font-weight: 400;
     position: absolute;
@@ -234,7 +219,7 @@ h1{
     font-size: 2.8vw;
 }
 
-#dogList{
+#plaidList{
     font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -246,34 +231,35 @@ h1{
     top: 30vw;
 }
 
-#dogList a{
+#plaidList a{
   text-decoration: none;
   color: black;
 }
-#dogList a:hover{
+#plaidList a:hover{
     text-decoration: underline;
     color: #ffc400;
 }
 
 
-#mouse{
-    width: 45vw;
+#cross{
+    width: 20vw;
     height: auto;
     position: absolute;
     left: 37%;
     top: 55vw;
 }
 
-#mouse2{
-    width: 45vw;
+#cross2{
+    width: 20vw;
     height: auto;
     position: absolute;
-    left: 37%;
-    top: 31vw;
+    left: 39%;
+    top: 32vw;
+    padding-bottom: 3vw;
  
 }
 
-#mouseTitle{
+#crossTitle{
     font-family: "Londrina Sketch", sans-serif;
     font-weight: 400;
     position: absolute;
@@ -282,7 +268,7 @@ h1{
     font-size: 2.8vw;
 }
 
-#mouseList{
+#crossList{
     font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -290,39 +276,29 @@ h1{
     width: 20vw;
     height: auto;
     position: absolute;
-    left: 37%;
-    top: 58vw;
+    left: 60%;
+    top: 31vw;
     padding-bottom: 3vw;
 }
 
-#mouseList a{
+#crossList a{
   text-decoration: none;
   color: black;
 }
-#mouseList a:hover{
+#crossList a:hover{
     text-decoration: underline;
     color: #ffc400;
 }
 
-#tooth{
+#body{
     width: 20vw;
     height: auto;
     position: absolute;
-    left: 37%;
-    top: 86vw;
+    left: 62%;
+    top: 55vw;
 }
 
-#twooth{
-    width: 17vw;
-    height: 27vw;
-    position: absolute;
-    left: 65%;
-    top: 86vw;
-    padding-bottom: 3vw;
-}
-
-
-#tooth2{
+#body2{
     width: 20vw;
     height: auto;
     position: absolute;
@@ -331,7 +307,7 @@ h1{
     padding-bottom: 3vw;
 }
 
-#toothTitle{
+#bodyTitle{
     font-family: "Londrina Sketch", sans-serif;
     font-weight: 400;
     position: absolute;
@@ -340,7 +316,7 @@ h1{
     font-size: 2.8vw;
 }
 
-#toothList{
+#bodyList{
     font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -352,11 +328,11 @@ h1{
     top: 30vw;
 }
 
-#toothList a{
+#bodyList a{
   text-decoration: none;
   color: black;
 }
-#toothList a:hover{
+#bodyList a:hover{
     text-decoration: underline;
     color: #ffc400;
 }
