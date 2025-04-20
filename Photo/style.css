@@ -253,6 +253,7 @@ h1{
     position: absolute;
     left: 30%;
     top: 27vw;
+    cursor: pointer;
 
 }
 
@@ -263,6 +264,7 @@ h1{
     left: 60.5%;
     top: 27vw;
     padding-bottom: 3vw;
+    cursor: pointer;
 }
 
 
