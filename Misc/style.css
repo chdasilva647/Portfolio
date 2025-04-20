@@ -16,6 +16,11 @@ body{
     margin: 0;
     padding: 0;
     cursor: default;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 #navbar{
