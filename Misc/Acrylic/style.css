@@ -112,6 +112,7 @@ h1{
 .dogs{
     width: 20vw;
     height: auto;
+    cursor: zoom-in; 
 }
 
 #dog1{
@@ -188,5 +189,11 @@ h1{
     top: 197.5vw;
     padding-bottom: 3vw;
 }
+
+.large{
+    -webkit-transform:scale(1.7); 
+    transform:scale(1.7);
+    z-index: +2;
+} 
 
 
