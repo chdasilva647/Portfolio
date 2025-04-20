@@ -120,7 +120,7 @@ h1{
 
 #studioName{
     position: absolute;
-    left: 40vw;
+    left: 43vw;
     top: 20vw;
     background-color: rgb(19, 61, 138);
     width: 13vw;
@@ -248,12 +248,26 @@ h1{
     font-size: 4vw;
 }
 
-/* @supports selector(::-webkit-scrollbar) {
-    .slider::-webkit-scrollbar {
-      background: #faf7f7;
-    }
-    .slider::-webkit-scrollbar-thumb {
-      background:#133d8a;
-      border-radius: 100vw;
-    }
-  } */
+#collageImage1{
+    width: 26vw;
+    height: auto;
+    position: absolute;
+    left: 30%;
+    top: 27vw;
+
+}
+
+#collageImage2{
+    width: 26vw;
+    height: auto;
+    position: absolute;
+    left: 60.5%;
+    top: 27vw;
+    padding-bottom: 3vw;
+}
+
+
+#collageImage1:hover, #collageImage2:hover{
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
