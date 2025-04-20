@@ -41,6 +41,8 @@ $("#snav").click(function() {
     $("#sub2").hide();
     $("#non-studio").hide();
     $("#types").hide();
+    $("#collageImage1").hide();
+    $("#collageImage2").hide();
 });
 
 $("#nsnav").click(function() {
@@ -49,6 +51,28 @@ $("#nsnav").click(function() {
     $("#sub1").hide();
     $("#studio").hide();
     $("#types").hide();
+    $("#collageImage1").hide();
+    $("#collageImage2").hide();
+});
+
+$("#collageImage1").click(function() {
+    $("#studio").toggle();
+    $("#sub1").show();
+    $("#sub2").hide();
+    $("#non-studio").hide();
+    $("#types").hide();
+    $("#collageImage1").hide();
+    $("#collageImage2").hide();
+});
+
+$("#collageImage2").click(function() {
+    $("#studio").toggle();
+    $("#sub1").show();
+    $("#sub2").hide();
+    $("#non-studio").hide();
+    $("#types").hide();
+    $("#collageImage1").hide();
+    $("#collageImage2").hide();
 });
     
 
@@ -58,6 +82,8 @@ $("#studioName").click(function() {
     $("#sub2").hide();
     $("#non-studio").hide();
     $("#types").hide();
+    $("#collageImage1").hide();
+    $("#collageImage2").hide();
 });
 
 $("#non-studioName").click(function() {
@@ -66,12 +92,16 @@ $("#non-studioName").click(function() {
     $("#sub1").hide();
     $("#studio").hide();
     $("#types").hide();
+    $("#collageImage1").hide();
+    $("#collageImage2").hide();
 });
 
 $("#headerImage").click(function(){
     $("#studio").hide();
     $("#non-studio").hide();
     $("#types").show();
+    $("#collageImage1").show();
+    $("#collageImage2").show();
     $("#sub1").hide();
     $("#sub2").hide();
 });
