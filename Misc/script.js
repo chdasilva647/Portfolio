@@ -29,17 +29,17 @@ $("#acrylicName").hover(function () {
     })
 
 
-$("#ceramicName").hover(function () {
-    $("#ceramicName").css("color", "#133d8a");
-    $("#ceramicName").css("background-color", "#ffc400");
-    $("#ceramicName").css("transform", "scale(1.1)");
-    $("#ceramicName").css("transform", "rotate(-5deg)");
-    $("#ceramicName").css("cursor", "pointer");
+$("#sculptureName").hover(function () {
+    $("#sculptureName").css("color", "#133d8a");
+    $("#sculptureName").css("background-color", "#ffc400");
+    $("#sculptureName").css("transform", "scale(1.1)");
+    $("#sculptureName").css("transform", "rotate(-5deg)");
+    $("#sculptureName").css("cursor", "pointer");
 },
     function () {
-        $("#ceramicName").css("color", "##faf7f7");
-        $("#ceramicName").css("background-color", "#133d8a");
-        $("#ceramicName").css("transform", "scale(1)");
-        $("#ceramicName").css("transform", "rotate(0deg)");
-        $("#ceramicName").css("cursor", "default");
+        $("#sculptureName").css("color", "##faf7f7");
+        $("#sculptureName").css("background-color", "#133d8a");
+        $("#sculptureName").css("transform", "scale(1)");
+        $("#sculptureName").css("transform", "rotate(0deg)");
+        $("#sculptureName").css("cursor", "default");
     })
