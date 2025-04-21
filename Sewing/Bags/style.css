@@ -244,21 +244,21 @@ h1{
 
 
 #cross{
-    width: 20vw;
-    height: auto;
+    width: auto;
+    height: 35vw;
     position: absolute;
     left: 37%;
     top: 55vw;
+    padding-bottom: 3vw;
 }
 
 #cross2{
-    width: 20vw;
+    width: 45vw;
     height: auto;
     position: absolute;
-    left: 39%;
-    top: 32vw;
+    left: 37%;
+    top: 41vw;
     padding-bottom: 3vw;
- 
 }
 
 #crossTitle{
@@ -278,7 +278,7 @@ h1{
     width: 20vw;
     height: auto;
     position: absolute;
-    left: 60%;
+    left: 36%;
     top: 31vw;
     padding-bottom: 3vw;
 }
@@ -298,14 +298,15 @@ h1{
     position: absolute;
     left: 62%;
     top: 55vw;
+    padding-bottom: 3vw;
 }
 
 #body2{
-    width: 20vw;
+    width: 45vw;
     height: auto;
     position: absolute;
-    left: 62%;
-    top: 27vw;
+    left: 37%;
+    top: 40vw;
     padding-bottom: 3vw;
 }
 
