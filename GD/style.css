@@ -17,7 +17,12 @@ body{
     margin: 0;
     padding: 0;
     cursor: default;
+    overflow-x: hidden;
 }
+
+body::-webkit-scrollbar {
+    display: none;
+  }
 
 #navbar{
     background-color: rgb(19, 61, 138);
@@ -92,4 +97,125 @@ h1{
     position: absolute;
     top:18vw;
     left: 24%;
+}
+
+
+
+#posterName{
+    position: absolute;
+    left: 28vw;
+    top: 20vw;
+    background-color: rgb(19, 61, 138);
+    width: 13vw;
+    height: 5vw;
+    border-radius: 20vw;
+    font-size: 1.8vw;
+    color:#faf7f7;
+    font-family: "Figtree", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    align-content: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+#typeName{
+    position: absolute;
+    left: 43.3vw;
+    top: 20vw;
+    background-color: #133d8a;
+    width: 13vw;
+    height: 5vw;
+    border-radius: 20vw;
+    font-size: 1.8vw;
+    color:#faf7f7;
+    font-family: "Figtree", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    align-content: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+#subwayName{
+    position: absolute;
+    left: 58.5vw;
+    top: 20vw;
+    background-color: rgb(19, 61, 138);
+    width: 13vw;
+    height: 5vw;
+    border-radius: 20vw;
+    font-size: 1.8vw;
+    color:#faf7f7;
+    font-family: "Figtree", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    align-content: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+
+#zineName{
+    position: absolute;
+    left: 74vw;
+    top: 20vw;
+    background-color: #133d8a;
+    width: 13vw;
+    height: 5vw;
+    border-radius: 20vw;
+    font-size: 1.8vw;
+    color:#faf7f7;
+    font-family: "Figtree", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    align-content: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+#collageImage1{
+    width: auto;
+    height: 26.5vw;
+    position: absolute;
+    left: 26%;
+    top: 27vw;
+
+}
+
+#collageImage2{
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    left: 44.5%;
+    top: 27vw;
+    padding-bottom: 3vw;
+
+}
+
+#collageImage3{
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    left: 35%;
+    top: 57vw;
+
+}
+
+#collageImage4{
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    left: 57.5%;
+    top: 57vw;
+    padding-bottom: 3vw;
+
+}
+
+
+
+
+#collageImage1:hover, #collageImage2:hover, #collageImage3:hover{
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
 }
