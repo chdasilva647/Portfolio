@@ -138,6 +138,16 @@ h1{
     line-height: 1.5;
 }
 
+#me a{
+    text-decoration: none;
+    color: black;
+}
+
+#me a:hover{
+    color: #ffc400;
+    text-decoration: underline;
+}
+
 #icons{
     position: absolute;
     /* left: 51.5vw;
