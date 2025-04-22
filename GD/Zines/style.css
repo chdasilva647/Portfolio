@@ -1,0 +1,272 @@
+.londrina-sketch-regular {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.figtree {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: #faf7f7;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#navbar{
+    background-color: rgb(19, 61, 138);
+    color: white;
+    padding: 10px;
+    height: 100%;
+    width: 16vw;
+    position: fixed;
+    left:0;
+    top:0;
+}
+#logo{
+    width: 15vw;
+    height: auto;
+    position: absolute;
+    left: 0%;
+    top: 1%;
+}
+
+#nav{ 
+    position: relative;
+    top:25%;
+    color: rgb(255, 255, 255);
+    font-size: 1.9vw;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+#nav a{
+    text-decoration: none;
+    color: #faf7f7;
+}
+
+#nav a:hover{
+    color: #ffc400;
+}
+
+.navItems{
+    position: relative;
+    font-weight: 300;
+    font-size: 1vw;
+    letter-spacing: 1px;
+}
+
+h1{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vw;
+    position: relative;
+    top: 25vw;
+    left: 44%;
+}
+
+#headerImage{
+    width: 77%;
+    height: auto;
+    position: absolute;
+    left: 19.5%;
+    top: 3%;
+}
+#headerImage:hover{
+    cursor: pointer;
+}
+
+#headerLine{
+    width: 69%;
+    height: 0.25vw;
+    background-color: rgb(19, 61, 138);
+    position: absolute;
+    top:18vw;
+    left: 24%;
+}
+
+#sub{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 19.5vw;
+    left: 53.5vw;
+    font-size: 5vw;
+    cursor: pointer;
+}
+
+
+
+#zine1Closed{
+    width: 25vw;
+    height: auto;
+    position: absolute;
+    left: 31%;
+    top: 26vw;
+}
+#zine1Closed:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+#zine2Closed{
+    width: 25vw;
+    height: auto;
+    position: absolute;
+    left: 60%;
+    top: 26vw;
+    cursor: pointer;
+}
+#zine2Closed:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+
+#ghead{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 21.5vw;
+    left: 42.5vw;
+    font-size: 4vw;
+}
+
+#zine1a{
+    width: 45vw;
+    height: auto;
+    position: absolute;
+    left: 36%;
+    top: 33vw;
+}
+
+#zine1b{
+    width: 25vw;
+    height: auto;
+    position: absolute;
+    left: 32%;
+    top: 78vw;
+}
+
+#zine1c{
+    width: 25vw;
+    height: auto;
+    position: absolute;
+    left: 62%;
+    top: 78vw;
+}
+
+#zine1d{
+    width: 55vw;
+    height: auto;
+    position: absolute;
+    left: 32%;
+    top: 99vw;
+    padding-bottom: 3vw;
+}
+
+#zine1e{
+    width: 55vw;
+    height: auto;
+    position: absolute;
+    left: 32%;
+    top: 142vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    cursor: pointer;
+}
+
+#gtext{
+    font-family: "Figtree", sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 58vw;
+    left: 40vw;
+    font-size: 1.3vw;
+    width: 40%;
+    line-height: 1.5;
+}
+
+#uhead{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 21.5vw;
+    left: 42.5vw;
+    font-size: 4vw;
+}
+#utext{
+    font-family: "Figtree", sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 58vw;
+    left: 40vw;
+    font-size: 1.3vw;
+    width: 40%;
+    line-height: 1.5;
+}
+
+#zine2a{
+    width: 45vw;
+    height: auto;
+    position: absolute;
+    left: 36%;
+    top: 33vw;
+}
+
+#zine2b{
+    width:55vw;
+    height: auto;
+    position: absolute;
+    left: 32%;
+    top: 77vw;
+}
+
+#zine2c{
+    width: 55vw;
+    height: auto;
+    position: absolute;
+    left: 32%;
+    top: 123vw;
+    cursor: pointer;
+}
+
+#zine2d{
+    width: 55vw;
+    height: auto;
+    position: absolute;
+    left: 32%;
+    top: 105vw;
+    padding-bottom: 4vw;
+}
+
+#poster{
+    width: 55vw;
+    height: auto;
+    position: absolute;
+    left: 32%;
+    top: 163vw;
+    padding-top: 4vw;
+    background-color: white;
+    padding-bottom: 4vw;
+}
+
+.turn{
+    transform: rotate(180deg);
+}
