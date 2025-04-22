@@ -117,6 +117,13 @@ h1{
     font-size: 5vw;
 }
 
+#sub1{
+    position: relative;
+    top: 20vw;
+    left: 51vw;
+    font-size: 5vw;
+}
+
 #studioName{
     position: absolute;
     left: 43vw;
