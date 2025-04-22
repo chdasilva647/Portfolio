@@ -127,3 +127,100 @@ h1{
 #about:hover{
     text-decoration: underline;
 }
+
+
+#gallery{
+ position: absolute;
+ left: 29vw;
+ top: 25vw;
+}
+
+img{
+    width: 20vw;
+    height: auto;
+}
+
+#dpsPoster{
+    position: absolute;
+    left: -1.5vw;
+    top: 0%;
+}
+
+#sketch{
+    position: absolute;
+    left: 19.75vw;
+    top: 0%;
+}
+
+#grocery{
+    position: absolute;
+    left: 41vw;
+    top: 0%;
+}
+
+#cover{
+    position: absolute;
+    left: -1.5vw;
+    top: 31vw;
+}
+
+#yearbook{
+    position: absolute;
+    left: 19.75vw;
+    top: 21vw;
+}
+
+#painting{
+    position: absolute;
+    left: 41vw;
+    top: 28vw;
+}
+
+#bear{
+    position: absolute;
+    left: -1.5vw;
+    top: 59vw;
+}
+
+#studio{
+    position: absolute;
+    left: 19.75vw;
+    top: 48vw;
+}
+
+#apple{
+    position: absolute;
+    left: 41vw;
+    top: 49.4vw;
+}
+
+#leather{
+    position: absolute;
+    left: 19.75vw;
+    top: 62.4vw;
+}
+
+#bag{
+    position: absolute;
+    left: 41vw;
+    top: 72.4vw;
+}
+
+#book{
+    position: absolute;
+    left: -1.5vw;
+    top: 87vw;
+}
+
+#acrylic{
+    position: absolute;
+    left: 19.75vw;
+    top: 90vw;
+    padding-bottom: 3vw;
+}
+
+#dpsPoster:hover, #sketch:hover, #grocery:hover, #cover:hover, #yearbook:hover, #painting:hover, #bear:hover, #studio:hover, #apple:hover, #leather:hover, #bag:hover, #book:hover, #acrylic:hover{
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
