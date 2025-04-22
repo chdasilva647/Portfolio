@@ -103,7 +103,7 @@ h1{
 
 #posterName{
     position: absolute;
-    left: 28vw;
+    left: 35vw;
     top: 20vw;
     background-color: rgb(19, 61, 138);
     width: 13vw;
@@ -121,25 +121,7 @@ h1{
 
 #typeName{
     position: absolute;
-    left: 43.3vw;
-    top: 20vw;
-    background-color: #133d8a;
-    width: 13vw;
-    height: 5vw;
-    border-radius: 20vw;
-    font-size: 1.8vw;
-    color:#faf7f7;
-    font-family: "Figtree", sans-serif;
-    font-weight: 900;
-    text-align: center;
-    align-content: center;
-    letter-spacing: 1px;
-    text-decoration: none;
-}
-
-#subwayName{
-    position: absolute;
-    left: 58.5vw;
+    left: 50vw;
     top: 20vw;
     background-color: rgb(19, 61, 138);
     width: 13vw;
@@ -155,10 +137,9 @@ h1{
     text-decoration: none;
 }
 
-
 #zineName{
     position: absolute;
-    left: 74vw;
+    left: 65vw;
     top: 20vw;
     background-color: #133d8a;
     width: 13vw;
@@ -174,11 +155,12 @@ h1{
     text-decoration: none;
 }
 
+
 #collageImage1{
     width: auto;
     height: 26.5vw;
     position: absolute;
-    left: 26%;
+    left: 27.5%;
     top: 27vw;
 
 }
@@ -187,7 +169,7 @@ h1{
     width: 20vw;
     height: auto;
     position: absolute;
-    left: 44.5%;
+    left: 47%;
     top: 27vw;
     padding-bottom: 3vw;
 
@@ -197,22 +179,10 @@ h1{
     width: 20vw;
     height: auto;
     position: absolute;
-    left: 35%;
-    top: 57vw;
+    left: 68.8%;
+    top: 27vw;
 
 }
-
-#collageImage4{
-    width: 20vw;
-    height: auto;
-    position: absolute;
-    left: 57.5%;
-    top: 57vw;
-    padding-bottom: 3vw;
-
-}
-
-
 
 
 #collageImage1:hover, #collageImage2:hover, #collageImage3:hover{
