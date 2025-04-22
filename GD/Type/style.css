@@ -1,0 +1,170 @@
+.londrina-sketch-regular {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.figtree {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: #faf7f7;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#navbar{
+    background-color: rgb(19, 61, 138);
+    color: white;
+    padding: 10px;
+    height: 100%;
+    width: 16vw;
+    position: fixed;
+    left:0;
+    top:0;
+}
+#logo{
+    width: 15vw;
+    height: auto;
+    position: absolute;
+    left: 0%;
+    top: 1%;
+}
+
+#nav{ 
+    position: relative;
+    top:25%;
+    color: rgb(255, 255, 255);
+    font-size: 1.9vw;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+#nav a{
+    text-decoration: none;
+    color: #faf7f7;
+}
+
+#nav a:hover{
+    color: #ffc400;
+}
+
+.navItems{
+    position: relative;
+    font-weight: 300;
+    font-size: 1vw;
+    letter-spacing: 1px;
+}
+
+h1{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vw;
+    position: relative;
+    top: 25vw;
+    left: 44%;
+}
+
+#headerImage{
+    width: 77%;
+    height: auto;
+    position: absolute;
+    left: 19.5%;
+    top: 3%;
+}
+#headerImage:hover{
+    cursor: pointer;
+}
+
+#headerLine{
+    width: 69%;
+    height: 0.25vw;
+    background-color: rgb(19, 61, 138);
+    position: absolute;
+    top:18vw;
+    left: 24%;
+}
+
+#sub{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 19.5vw;
+    left: 41.5vw;
+    font-size: 5vw;
+}
+
+#cover1{
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    left: 27vw;
+    top: 28vw;
+}
+#cover2{
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    left: 60vw;
+    top: 28vw;
+}
+#cover3{
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    left: 27vw;
+    top: 71vw;
+}
+#cover4{
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    left: 60vw;
+    top: 71vw;
+}
+
+#mag1, #mag2{
+    width: 63vw;
+    height: auto;
+    position: absolute;
+    left: 27vw;
+    top: 114.5vw;
+    cursor: e-resize;
+}
+
+#type{
+    width: 63vw;
+    height: auto;
+    position: absolute;
+    left: 27vw;
+    top: 158.5vw;
+}
+
+#word1, #word2, #word3, #word4, #word5{
+    background-color: white;
+    width: 40vw;
+    height: auto;
+    position: absolute;
+    left: 38vw;
+    top: 210vw;
+    cursor: e-resize;
+}
+
+.large{
+    -webkit-transform:scale(1.5); 
+    transform:scale(1.5);
+}
