@@ -1,0 +1,192 @@
+.londrina-sketch-regular {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.figtree {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body{
+    background-color: #faf7f7;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+#navbar{
+    background-color: rgb(19, 61, 138);
+    color: white;
+    padding: 10px;
+    height: 100%;
+    width: 16vw;
+    position: fixed;
+    left:0;
+    top:0;
+}
+
+#logo{
+    width: 15vw;
+    height: auto;
+    position: absolute;
+    left: 0%;
+    top: 1%;
+}
+
+#nav{ 
+    position: relative;
+    top:25%;
+    color: rgb(255, 255, 255);
+    font-size: 1.9vw;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+#nav a{
+    text-decoration: none;
+    color: #faf7f7;
+}
+
+#nav a:hover{
+    color: #ffc400;
+}
+
+.navItems{
+    position: relative;
+    font-weight: 300;
+    font-size: 1vw;
+    letter-spacing: 1px;
+}
+
+
+h1{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 9vw;
+    position: absolute;
+    left: 35%; 
+    top: -5vw;
+}
+
+#headerImage{
+    width: 77%;
+    height: auto;
+    position: absolute;
+    left: 19.5%;
+    top: 3%;
+}
+
+#headerLine{
+    width: 69%;
+    height: 0.25vw;
+    background-color: rgb(19, 61, 138);
+    position: absolute;
+    top:18vw;
+    left: 24%;
+}
+
+
+
+#posterName{
+    position: absolute;
+    left: 35vw;
+    top: 20vw;
+    background-color: rgb(19, 61, 138);
+    width: 13vw;
+    height: 5vw;
+    border-radius: 20vw;
+    font-size: 1.8vw;
+    color:#faf7f7;
+    font-family: "Figtree", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    align-content: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+#typeName{
+    position: absolute;
+    left: 50vw;
+    top: 20vw;
+    background-color: rgb(19, 61, 138);
+    width: 13vw;
+    height: 5vw;
+    border-radius: 20vw;
+    font-size: 1.8vw;
+    color:#faf7f7;
+    font-family: "Figtree", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    align-content: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+#zineName{
+    position: absolute;
+    left: 65vw;
+    top: 20vw;
+    background-color: #133d8a;
+    width: 13vw;
+    height: 5vw;
+    border-radius: 20vw;
+    font-size: 1.8vw;
+    color:#faf7f7;
+    font-family: "Figtree", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    align-content: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+
+#collageImage1{
+    width: auto;
+    height: 26.5vw;
+    position: absolute;
+    left: 27.5%;
+    top: 27vw;
+
+}
+
+#collageImage2{
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    left: 47%;
+    top: 27vw;
+    padding-bottom: 3vw;
+
+}
+
+#collageImage3{
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    left: 68.8%;
+    top: 27vw;
+
+}
+
+
+
+#collageImage1:hover, #collageImage2:hover, #collageImage3:hover{
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
