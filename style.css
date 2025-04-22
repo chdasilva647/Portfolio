@@ -80,11 +80,9 @@ body::-webkit-scrollbar {
 
 #icons{
     position: absolute;
-    /* left: 51.5vw;
-    top: 39vw; */
     top:1vw;
     left: 95%;
-
+    z-index: +5;
 }
 
 #insta{
